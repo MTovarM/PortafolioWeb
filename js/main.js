@@ -17,12 +17,12 @@ barraNavegador.style.backgroundColor = 'black';
 titulo.textContent = 'Michael Tovar';
 cardBlog.forEach(card => card.style.backgroundColor = '#464646');
 tituloPagina.textContent = 'Michael Tovar'
-tituloAnimado.textContent = 'Ingeniero electrónico, Desarrollador de software, Desarrollador web, Integrador de soluciones IoT';
+tituloAnimado.textContent = 'Ingeniero Electrónico, Desarrollador de software, Desarrollador web, Salesforce';
 
 (function ($) {
 	"use strict";
 	var nav = $('nav');
-  var navHeight = nav.outerHeight();
+	var navHeight = nav.outerHeight();
   
 /* $('.navbar-toggler').on('click', function() {
     if( ! $('#mainNav').hasClass('navbar-reduce')) {
